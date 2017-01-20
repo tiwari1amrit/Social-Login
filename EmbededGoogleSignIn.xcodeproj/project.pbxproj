@@ -12,6 +12,15 @@
 		F023C2451E31C24C00F70E72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F023C2431E31C24C00F70E72 /* Main.storyboard */; };
 		F023C2471E31C24C00F70E72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F023C2461E31C24C00F70E72 /* Assets.xcassets */; };
 		F023C24A1E31C24C00F70E72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F023C2481E31C24C00F70E72 /* LaunchScreen.storyboard */; };
+		F023C2561E31C35300F70E72 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C2511E31C35300F70E72 /* GoogleAppUtilities.framework */; };
+		F023C2571E31C35300F70E72 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F023C2521E31C35300F70E72 /* GoogleSignIn.bundle */; };
+		F023C2581E31C35300F70E72 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C2531E31C35300F70E72 /* GoogleSignIn.framework */; };
+		F023C2591E31C35300F70E72 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C2541E31C35300F70E72 /* GoogleSignInDependencies.framework */; };
+		F023C25A1E31C35300F70E72 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C2551E31C35300F70E72 /* GoogleSymbolUtilities.framework */; };
+		F023C25D1E31C3D400F70E72 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C25C1E31C3D400F70E72 /* SafariServices.framework */; };
+		F023C25F1E31C3DD00F70E72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C25E1E31C3DD00F70E72 /* SystemConfiguration.framework */; };
+		F023C2611E31C3F600F70E72 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C2601E31C3F600F70E72 /* CoreAudio.framework */; };
+		F023C2651E31C56A00F70E72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F023C2641E31C56A00F70E72 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		F023C2461E31C24C00F70E72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F023C2491E31C24C00F70E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F023C24B1E31C24C00F70E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F023C2511E31C35300F70E72 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		F023C2521E31C35300F70E72 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		F023C2531E31C35300F70E72 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		F023C2541E31C35300F70E72 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		F023C2551E31C35300F70E72 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		F023C25C1E31C3D400F70E72 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		F023C25E1E31C3DD00F70E72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F023C2601E31C3F600F70E72 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		F023C2641E31C56A00F70E72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +47,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F023C2611E31C3F600F70E72 /* CoreAudio.framework in Frameworks */,
+				F023C25F1E31C3DD00F70E72 /* SystemConfiguration.framework in Frameworks */,
+				F023C25D1E31C3D400F70E72 /* SafariServices.framework in Frameworks */,
+				F023C2591E31C35300F70E72 /* GoogleSignInDependencies.framework in Frameworks */,
+				F023C2561E31C35300F70E72 /* GoogleAppUtilities.framework in Frameworks */,
+				F023C25A1E31C35300F70E72 /* GoogleSymbolUtilities.framework in Frameworks */,
+				F023C2581E31C35300F70E72 /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +63,14 @@
 		F023C2331E31C24B00F70E72 = {
 			isa = PBXGroup;
 			children = (
+				F023C2511E31C35300F70E72 /* GoogleAppUtilities.framework */,
+				F023C2521E31C35300F70E72 /* GoogleSignIn.bundle */,
+				F023C2531E31C35300F70E72 /* GoogleSignIn.framework */,
+				F023C2541E31C35300F70E72 /* GoogleSignInDependencies.framework */,
+				F023C2551E31C35300F70E72 /* GoogleSymbolUtilities.framework */,
 				F023C23E1E31C24C00F70E72 /* EmbededGoogleSignIn */,
 				F023C23D1E31C24C00F70E72 /* Products */,
+				F023C25B1E31C3D400F70E72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				F023C23F1E31C24C00F70E72 /* AppDelegate.swift */,
+				F023C2641E31C56A00F70E72 /* GoogleService-Info.plist */,
 				F023C2411E31C24C00F70E72 /* ViewController.swift */,
 				F023C2431E31C24C00F70E72 /* Main.storyboard */,
 				F023C2461E31C24C00F70E72 /* Assets.xcassets */,
@@ -62,6 +94,16 @@
 				F023C24B1E31C24C00F70E72 /* Info.plist */,
 			);
 			path = EmbededGoogleSignIn;
+			sourceTree = "<group>";
+		};
+		F023C25B1E31C3D400F70E72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F023C2601E31C3F600F70E72 /* CoreAudio.framework */,
+				F023C25E1E31C3DD00F70E72 /* SystemConfiguration.framework */,
+				F023C25C1E31C3D400F70E72 /* SafariServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +165,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F023C2571E31C35300F70E72 /* GoogleSignIn.bundle in Resources */,
 				F023C24A1E31C24C00F70E72 /* LaunchScreen.storyboard in Resources */,
+				F023C2651E31C56A00F70E72 /* GoogleService-Info.plist in Resources */,
 				F023C2471E31C24C00F70E72 /* Assets.xcassets in Resources */,
 				F023C2451E31C24C00F70E72 /* Main.storyboard in Resources */,
 			);
@@ -206,6 +250,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -248,6 +296,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -258,6 +310,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = EmbededGoogleSignIn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tiwariammit.EmbededGoogleSignIn;
@@ -270,6 +326,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = EmbededGoogleSignIn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tiwariammit.EmbededGoogleSignIn;
