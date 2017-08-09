@@ -7,39 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E689AEB888FA2AC1C88E448 /* Pods_EmbededGoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DAF8619E94CEAFAA25FC4C /* Pods_EmbededGoogleSignIn.framework */; };
 		F023C2401E31C24C00F70E72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F023C23F1E31C24C00F70E72 /* AppDelegate.swift */; };
-		F023C2421E31C24C00F70E72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F023C2411E31C24C00F70E72 /* ViewController.swift */; };
 		F023C2451E31C24C00F70E72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F023C2431E31C24C00F70E72 /* Main.storyboard */; };
 		F023C2471E31C24C00F70E72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F023C2461E31C24C00F70E72 /* Assets.xcassets */; };
 		F023C24A1E31C24C00F70E72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F023C2481E31C24C00F70E72 /* LaunchScreen.storyboard */; };
-		F023C2561E31C35300F70E72 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C2511E31C35300F70E72 /* GoogleAppUtilities.framework */; };
-		F023C2571E31C35300F70E72 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F023C2521E31C35300F70E72 /* GoogleSignIn.bundle */; };
-		F023C2581E31C35300F70E72 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C2531E31C35300F70E72 /* GoogleSignIn.framework */; };
-		F023C2591E31C35300F70E72 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C2541E31C35300F70E72 /* GoogleSignInDependencies.framework */; };
-		F023C25A1E31C35300F70E72 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C2551E31C35300F70E72 /* GoogleSymbolUtilities.framework */; };
 		F023C25D1E31C3D400F70E72 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C25C1E31C3D400F70E72 /* SafariServices.framework */; };
 		F023C25F1E31C3DD00F70E72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C25E1E31C3DD00F70E72 /* SystemConfiguration.framework */; };
 		F023C2611E31C3F600F70E72 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F023C2601E31C3F600F70E72 /* CoreAudio.framework */; };
 		F023C2651E31C56A00F70E72 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F023C2641E31C56A00F70E72 /* GoogleService-Info.plist */; };
+		F0E31E021F3ADC2E006868DE /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E31DF91F3ADC2E006868DE /* TwitterCore.framework */; };
+		F0E31E031F3ADC2E006868DE /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E31DFA1F3ADC2E006868DE /* TwitterKit.framework */; };
+		F0E31E041F3ADC2E006868DE /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F0E31DFB1F3ADC2E006868DE /* TwitterKitResources.bundle */; };
+		F0E31E051F3ADC2E006868DE /* TwitterShareExtensionUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F0E31DFC1F3ADC2E006868DE /* TwitterShareExtensionUIResources.bundle */; };
+		F0E31E151F3AE6CA006868DE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E31E121F3AE6CA006868DE /* Bolts.framework */; };
+		F0E31E161F3AE6CA006868DE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E31E131F3AE6CA006868DE /* FBSDKCoreKit.framework */; };
+		F0E31E171F3AE6CA006868DE /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E31E141F3AE6CA006868DE /* FBSDKLoginKit.framework */; };
+		F0E31E1D1F3B10DB006868DE /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E31E181F3B10DB006868DE /* GoogleAppUtilities.framework */; };
+		F0E31E1E1F3B10DB006868DE /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F0E31E191F3B10DB006868DE /* GoogleSignIn.bundle */; };
+		F0E31E1F1F3B10DB006868DE /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E31E1A1F3B10DB006868DE /* GoogleSignIn.framework */; };
+		F0E31E201F3B10DB006868DE /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E31E1B1F3B10DB006868DE /* GoogleSignInDependencies.framework */; };
+		F0E31E211F3B10DB006868DE /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0E31E1C1F3B10DB006868DE /* GoogleSymbolUtilities.framework */; };
+		F0E31E231F3B18C3006868DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E31E221F3B18C3006868DE /* ViewController.swift */; };
+		F0E31E251F3B1CEB006868DE /* LoginWithInstragramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E31E241F3B1CEB006868DE /* LoginWithInstragramViewController.swift */; };
+		F0E31E291F3B1FA5006868DE /* LoginModuleInstragram.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E31E281F3B1FA5006868DE /* LoginModuleInstragram.swift */; };
+		F0E31E2C1F3B218E006868DE /* LinkedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E31E2B1F3B218E006868DE /* LinkedInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		469FF5AC23D9B58AA90A5A52 /* Pods-EmbededGoogleSignIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmbededGoogleSignIn.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmbededGoogleSignIn/Pods-EmbededGoogleSignIn.release.xcconfig"; sourceTree = "<group>"; };
+		6DD9BB3F74AD2A3DBB0DF165 /* Pods-EmbededGoogleSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmbededGoogleSignIn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmbededGoogleSignIn/Pods-EmbededGoogleSignIn.debug.xcconfig"; sourceTree = "<group>"; };
+		E0DAF8619E94CEAFAA25FC4C /* Pods_EmbededGoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmbededGoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F023C23C1E31C24C00F70E72 /* EmbededGoogleSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmbededGoogleSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F023C23F1E31C24C00F70E72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F023C2411E31C24C00F70E72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F023C2441E31C24C00F70E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F023C2461E31C24C00F70E72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F023C2491E31C24C00F70E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F023C24B1E31C24C00F70E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F023C2511E31C35300F70E72 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppUtilities.framework; sourceTree = "<group>"; };
-		F023C2521E31C35300F70E72 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
-		F023C2531E31C35300F70E72 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
-		F023C2541E31C35300F70E72 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
-		F023C2551E31C35300F70E72 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
 		F023C25C1E31C3D400F70E72 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		F023C25E1E31C3DD00F70E72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		F023C2601E31C3F600F70E72 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		F023C2641E31C56A00F70E72 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F0E31DF01F3ADA44006868DE /* EmbededGoogleSignIn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmbededGoogleSignIn-Bridging-Header.h"; sourceTree = "<group>"; };
+		F0E31DF91F3ADC2E006868DE /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterCore.framework; sourceTree = "<group>"; };
+		F0E31DFA1F3ADC2E006868DE /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TwitterKit.framework; sourceTree = "<group>"; };
+		F0E31DFB1F3ADC2E006868DE /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = TwitterKit.framework/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		F0E31DFC1F3ADC2E006868DE /* TwitterShareExtensionUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterShareExtensionUIResources.bundle; path = TwitterKit.framework/TwitterShareExtensionUIResources.bundle; sourceTree = "<group>"; };
+		F0E31E121F3AE6CA006868DE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		F0E31E131F3AE6CA006868DE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F0E31E141F3AE6CA006868DE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F0E31E181F3B10DB006868DE /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		F0E31E191F3B10DB006868DE /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		F0E31E1A1F3B10DB006868DE /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		F0E31E1B1F3B10DB006868DE /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		F0E31E1C1F3B10DB006868DE /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		F0E31E221F3B18C3006868DE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0E31E241F3B1CEB006868DE /* LoginWithInstragramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWithInstragramViewController.swift; sourceTree = "<group>"; };
+		F0E31E281F3B1FA5006868DE /* LoginModuleInstragram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModuleInstragram.swift; sourceTree = "<group>"; };
+		F0E31E2B1F3B218E006868DE /* LinkedInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,12 +73,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F023C2611E31C3F600F70E72 /* CoreAudio.framework in Frameworks */,
+				F0E31E171F3AE6CA006868DE /* FBSDKLoginKit.framework in Frameworks */,
 				F023C25F1E31C3DD00F70E72 /* SystemConfiguration.framework in Frameworks */,
+				F0E31E161F3AE6CA006868DE /* FBSDKCoreKit.framework in Frameworks */,
+				F0E31E201F3B10DB006868DE /* GoogleSignInDependencies.framework in Frameworks */,
+				F0E31E151F3AE6CA006868DE /* Bolts.framework in Frameworks */,
+				F0E31E211F3B10DB006868DE /* GoogleSymbolUtilities.framework in Frameworks */,
+				F0E31E021F3ADC2E006868DE /* TwitterCore.framework in Frameworks */,
+				F0E31E1D1F3B10DB006868DE /* GoogleAppUtilities.framework in Frameworks */,
 				F023C25D1E31C3D400F70E72 /* SafariServices.framework in Frameworks */,
-				F023C2591E31C35300F70E72 /* GoogleSignInDependencies.framework in Frameworks */,
-				F023C2561E31C35300F70E72 /* GoogleAppUtilities.framework in Frameworks */,
-				F023C25A1E31C35300F70E72 /* GoogleSymbolUtilities.framework in Frameworks */,
-				F023C2581E31C35300F70E72 /* GoogleSignIn.framework in Frameworks */,
+				F0E31E031F3ADC2E006868DE /* TwitterKit.framework in Frameworks */,
+				F0E31E1F1F3B10DB006868DE /* GoogleSignIn.framework in Frameworks */,
+				3E689AEB888FA2AC1C88E448 /* Pods_EmbededGoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,14 +94,13 @@
 		F023C2331E31C24B00F70E72 = {
 			isa = PBXGroup;
 			children = (
-				F023C2511E31C35300F70E72 /* GoogleAppUtilities.framework */,
-				F023C2521E31C35300F70E72 /* GoogleSignIn.bundle */,
-				F023C2531E31C35300F70E72 /* GoogleSignIn.framework */,
-				F023C2541E31C35300F70E72 /* GoogleSignInDependencies.framework */,
-				F023C2551E31C35300F70E72 /* GoogleSymbolUtilities.framework */,
+				F0E31E111F3AE6AD006868DE /* Facebook SDK */,
+				F0E31E071F3ADC49006868DE /* Twitter SignIn SDK */,
+				F0E31E061F3ADC3D006868DE /* Google SignIn SDK */,
 				F023C23E1E31C24C00F70E72 /* EmbededGoogleSignIn */,
 				F023C23D1E31C24C00F70E72 /* Products */,
 				F023C25B1E31C3D400F70E72 /* Frameworks */,
+				F54F1D27C115D56403D7E469 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,13 +115,16 @@
 		F023C23E1E31C24C00F70E72 /* EmbededGoogleSignIn */ = {
 			isa = PBXGroup;
 			children = (
+				F0E31E261F3B1F0B006868DE /* Facebook google snd Twitter */,
+				F0E31E2A1F3B2180006868DE /* LinkedIn */,
+				F0E31E271F3B1F28006868DE /* Instragram */,
 				F023C23F1E31C24C00F70E72 /* AppDelegate.swift */,
-				F023C2641E31C56A00F70E72 /* GoogleService-Info.plist */,
-				F023C2411E31C24C00F70E72 /* ViewController.swift */,
 				F023C2431E31C24C00F70E72 /* Main.storyboard */,
 				F023C2461E31C24C00F70E72 /* Assets.xcassets */,
 				F023C2481E31C24C00F70E72 /* LaunchScreen.storyboard */,
+				F023C2641E31C56A00F70E72 /* GoogleService-Info.plist */,
 				F023C24B1E31C24C00F70E72 /* Info.plist */,
+				F0E31DF01F3ADA44006868DE /* EmbededGoogleSignIn-Bridging-Header.h */,
 			);
 			path = EmbededGoogleSignIn;
 			sourceTree = "<group>";
@@ -102,8 +135,76 @@
 				F023C2601E31C3F600F70E72 /* CoreAudio.framework */,
 				F023C25E1E31C3DD00F70E72 /* SystemConfiguration.framework */,
 				F023C25C1E31C3D400F70E72 /* SafariServices.framework */,
+				E0DAF8619E94CEAFAA25FC4C /* Pods_EmbededGoogleSignIn.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0E31E061F3ADC3D006868DE /* Google SignIn SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F0E31E181F3B10DB006868DE /* GoogleAppUtilities.framework */,
+				F0E31E191F3B10DB006868DE /* GoogleSignIn.bundle */,
+				F0E31E1A1F3B10DB006868DE /* GoogleSignIn.framework */,
+				F0E31E1B1F3B10DB006868DE /* GoogleSignInDependencies.framework */,
+				F0E31E1C1F3B10DB006868DE /* GoogleSymbolUtilities.framework */,
+			);
+			name = "Google SignIn SDK";
+			sourceTree = "<group>";
+		};
+		F0E31E071F3ADC49006868DE /* Twitter SignIn SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F0E31DF91F3ADC2E006868DE /* TwitterCore.framework */,
+				F0E31DFA1F3ADC2E006868DE /* TwitterKit.framework */,
+				F0E31DFB1F3ADC2E006868DE /* TwitterKitResources.bundle */,
+				F0E31DFC1F3ADC2E006868DE /* TwitterShareExtensionUIResources.bundle */,
+			);
+			name = "Twitter SignIn SDK";
+			sourceTree = "<group>";
+		};
+		F0E31E111F3AE6AD006868DE /* Facebook SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F0E31E121F3AE6CA006868DE /* Bolts.framework */,
+				F0E31E131F3AE6CA006868DE /* FBSDKCoreKit.framework */,
+				F0E31E141F3AE6CA006868DE /* FBSDKLoginKit.framework */,
+			);
+			name = "Facebook SDK";
+			sourceTree = "<group>";
+		};
+		F0E31E261F3B1F0B006868DE /* Facebook google snd Twitter */ = {
+			isa = PBXGroup;
+			children = (
+				F0E31E221F3B18C3006868DE /* ViewController.swift */,
+			);
+			name = "Facebook google snd Twitter";
+			sourceTree = "<group>";
+		};
+		F0E31E271F3B1F28006868DE /* Instragram */ = {
+			isa = PBXGroup;
+			children = (
+				F0E31E241F3B1CEB006868DE /* LoginWithInstragramViewController.swift */,
+				F0E31E281F3B1FA5006868DE /* LoginModuleInstragram.swift */,
+			);
+			name = Instragram;
+			sourceTree = "<group>";
+		};
+		F0E31E2A1F3B2180006868DE /* LinkedIn */ = {
+			isa = PBXGroup;
+			children = (
+				F0E31E2B1F3B218E006868DE /* LinkedInViewController.swift */,
+			);
+			name = LinkedIn;
+			sourceTree = "<group>";
+		};
+		F54F1D27C115D56403D7E469 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DD9BB3F74AD2A3DBB0DF165 /* Pods-EmbededGoogleSignIn.debug.xcconfig */,
+				469FF5AC23D9B58AA90A5A52 /* Pods-EmbededGoogleSignIn.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F023C24E1E31C24C00F70E72 /* Build configuration list for PBXNativeTarget "EmbededGoogleSignIn" */;
 			buildPhases = (
+				C58FB43BCAB28EB1C5F717C6 /* [CP] Check Pods Manifest.lock */,
 				F023C2381E31C24C00F70E72 /* Sources */,
 				F023C2391E31C24C00F70E72 /* Frameworks */,
 				F023C23A1E31C24C00F70E72 /* Resources */,
+				E089D328AF369DE782D8DE65 /* [CP] Embed Pods Frameworks */,
+				D01F3E641E04A14A8775413C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,6 +242,8 @@
 				TargetAttributes = {
 					F023C23B1E31C24C00F70E72 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = W9573PH45W;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -165,23 +271,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F023C2571E31C35300F70E72 /* GoogleSignIn.bundle in Resources */,
 				F023C24A1E31C24C00F70E72 /* LaunchScreen.storyboard in Resources */,
 				F023C2651E31C56A00F70E72 /* GoogleService-Info.plist in Resources */,
 				F023C2471E31C24C00F70E72 /* Assets.xcassets in Resources */,
+				F0E31E051F3ADC2E006868DE /* TwitterShareExtensionUIResources.bundle in Resources */,
+				F0E31E041F3ADC2E006868DE /* TwitterKitResources.bundle in Resources */,
+				F0E31E1E1F3B10DB006868DE /* GoogleSignIn.bundle in Resources */,
 				F023C2451E31C24C00F70E72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C58FB43BCAB28EB1C5F717C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D01F3E641E04A14A8775413C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmbededGoogleSignIn/Pods-EmbededGoogleSignIn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E089D328AF369DE782D8DE65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmbededGoogleSignIn/Pods-EmbededGoogleSignIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F023C2381E31C24C00F70E72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F023C2421E31C24C00F70E72 /* ViewController.swift in Sources */,
+				F0E31E251F3B1CEB006868DE /* LoginWithInstragramViewController.swift in Sources */,
+				F0E31E231F3B18C3006868DE /* ViewController.swift in Sources */,
+				F0E31E291F3B1FA5006868DE /* LoginModuleInstragram.swift in Sources */,
 				F023C2401E31C24C00F70E72 /* AppDelegate.swift in Sources */,
+				F0E31E2C1F3B218E006868DE /* LinkedInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,32 +467,53 @@
 		};
 		F023C24F1E31C24C00F70E72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DD9BB3F74AD2A3DBB0DF165 /* Pods-EmbededGoogleSignIn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = W9573PH45W;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Google\\ Login\\ SDk",
+					"$(PROJECT_DIR)/Google\\ Login\\ SDk",
+					"$(PROJECT_DIR)/Google\\ Login\\ SDk",
+					"$(PROJECT_DIR)/Google\\ Login\\ SDk",
+					"$(PROJECT_DIR)/Twitter\\ Login\\ SDK",
+					"$(PROJECT_DIR)/Twitter\\ Login\\ SDK",
 				);
 				INFOPLIST_FILE = EmbededGoogleSignIn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tiwariammit.EmbededGoogleSignIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EmbededGoogleSignIn/EmbededGoogleSignIn-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F023C2501E31C24C00F70E72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469FF5AC23D9B58AA90A5A52 /* Pods-EmbededGoogleSignIn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = W9573PH45W;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Google\\ Login\\ SDk",
+					"$(PROJECT_DIR)/Google\\ Login\\ SDk",
+					"$(PROJECT_DIR)/Google\\ Login\\ SDk",
+					"$(PROJECT_DIR)/Google\\ Login\\ SDk",
+					"$(PROJECT_DIR)/Twitter\\ Login\\ SDK",
+					"$(PROJECT_DIR)/Twitter\\ Login\\ SDK",
 				);
 				INFOPLIST_FILE = EmbededGoogleSignIn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tiwariammit.EmbededGoogleSignIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EmbededGoogleSignIn/EmbededGoogleSignIn-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -357,6 +537,7 @@
 				F023C2501E31C24C00F70E72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

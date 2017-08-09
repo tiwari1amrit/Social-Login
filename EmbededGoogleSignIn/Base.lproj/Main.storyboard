@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="iHg-D6-Sls">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -21,28 +21,156 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6n1-hW-0l2" customClass="GIDSignInButton">
-                                <rect key="frame" x="95" y="302" width="185" height="63"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="185" id="OAl-pt-CFZ"/>
-                                    <constraint firstAttribute="height" constant="63" id="Rwv-Yg-B8N"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lgh-Kg-0yN">
+                                <rect key="frame" x="142" y="104" width="91" height="30"/>
+                                <state key="normal" title="Google Login"/>
                                 <connections>
-                                    <action selector="signInAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HWD-6K-ayn"/>
+                                    <action selector="btnLoginWithGoogleTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vXm-6h-yo9"/>
                                 </connections>
-                            </view>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJy-Lr-2W5">
+                                <rect key="frame" x="143" y="136" width="89" height="30"/>
+                                <state key="normal" title="Twitter Login"/>
+                                <connections>
+                                    <action selector="btnTwitterLoginTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LzK-p1-Yx2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2I-zq-zgA">
+                                <rect key="frame" x="134" y="166" width="108" height="30"/>
+                                <state key="normal" title="Facebook Login"/>
+                                <connections>
+                                    <action selector="btnLoginWithFacebookTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XS6-81-4sw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0L-Eb-6Db">
+                                <rect key="frame" x="130" y="195" width="116" height="30"/>
+                                <state key="normal" title="Instragram Login"/>
+                                <connections>
+                                    <action selector="btnLoginWithInstragramTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rrR-4e-BEC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMG-0j-ok7">
+                                <rect key="frame" x="138" y="233" width="99" height="30"/>
+                                <state key="normal" title="LinkedIn Login"/>
+                                <connections>
+                                    <action selector="btnLoginWithLinkedInTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lSt-tx-xqw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6n1-hW-0l2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hkS-S9-wbx"/>
-                            <constraint firstItem="6n1-hW-0l2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uRr-7G-7Hm"/>
+                            <constraint firstItem="Lgh-Kg-0yN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="4RD-kF-hMn"/>
+                            <constraint firstItem="u2I-zq-zgA" firstAttribute="top" secondItem="ZJy-Lr-2W5" secondAttribute="bottom" id="5t0-7M-F84"/>
+                            <constraint firstItem="rMG-0j-ok7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7nZ-as-hAz"/>
+                            <constraint firstItem="ZJy-Lr-2W5" firstAttribute="top" secondItem="Lgh-Kg-0yN" secondAttribute="bottom" constant="2" id="DrQ-vS-0Xo"/>
+                            <constraint firstItem="u2I-zq-zgA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ETD-yQ-JF3"/>
+                            <constraint firstItem="ZJy-Lr-2W5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pf1-ED-QZT"/>
+                            <constraint firstItem="X0L-Eb-6Db" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VYN-ts-q3m"/>
+                            <constraint firstItem="Lgh-Kg-0yN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fHp-0V-vZO"/>
+                            <constraint firstItem="rMG-0j-ok7" firstAttribute="top" secondItem="X0L-Eb-6Db" secondAttribute="bottom" constant="8" id="i1t-8v-YXn"/>
+                            <constraint firstItem="X0L-Eb-6Db" firstAttribute="top" secondItem="u2I-zq-zgA" secondAttribute="bottom" constant="-1" id="tjo-GS-SnD"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="icF-Ic-Q3X"/>
+                    <connections>
+                        <outlet property="btnFacebook" destination="u2I-zq-zgA" id="c6d-qP-woD"/>
+                        <outlet property="btnInstragram" destination="X0L-Eb-6Db" id="cZU-Ia-ofh"/>
+                        <outlet property="btnLinkedIn" destination="rMG-0j-ok7" id="3aF-4h-QWy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1076" y="138.98050974512745"/>
+        </scene>
+        <!--Login With Instragram View Controller-->
+        <scene sceneID="4Ef-pH-nYa">
+            <objects>
+                <viewController storyboardIdentifier="LoginWithInstragramViewController" id="CkU-Ab-cfM" customClass="LoginWithInstragramViewController" customModule="EmbededGoogleSignIn" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qe2-TP-1xq"/>
+                        <viewControllerLayoutGuide type="bottom" id="X0x-Q7-K5A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KKC-Mb-YAR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Zjb-ZK-eEU">
+                                <rect key="frame" x="177" y="323" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U7s-j5-xK2">
+                                <rect key="frame" x="0.0" y="-17" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="U7s-j5-xK2" secondAttribute="trailing" id="KnP-O1-u7s"/>
+                            <constraint firstItem="Zjb-ZK-eEU" firstAttribute="centerY" secondItem="KKC-Mb-YAR" secondAttribute="centerY" id="QpS-ZE-zFX"/>
+                            <constraint firstItem="U7s-j5-xK2" firstAttribute="leading" secondItem="KKC-Mb-YAR" secondAttribute="leading" id="W8W-hm-p9C"/>
+                            <constraint firstItem="X0x-Q7-K5A" firstAttribute="top" secondItem="U7s-j5-xK2" secondAttribute="bottom" id="fqj-Ev-kiD"/>
+                            <constraint firstItem="U7s-j5-xK2" firstAttribute="top" secondItem="KKC-Mb-YAR" secondAttribute="top" id="sPw-8L-aOs"/>
+                            <constraint firstItem="Zjb-ZK-eEU" firstAttribute="centerX" secondItem="KKC-Mb-YAR" secondAttribute="centerX" id="xUe-tl-Q8A"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="indicator" destination="Zjb-ZK-eEU" id="Qut-8v-vgg"/>
+                        <outlet property="webView" destination="U7s-j5-xK2" id="ZXr-c7-I0M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4cR-Sl-Tqc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1724" y="138.98050974512745"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="d3o-Lu-PVe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iHg-D6-Sls" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="gAf-JQ-iSL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Q7w-5d-ifE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PcR-rx-Km8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--Linked In View Controller-->
+        <scene sceneID="5Bl-lA-qyu">
+            <objects>
+                <viewController storyboardIdentifier="LinkedInViewController" id="9LG-Pf-OpO" customClass="LinkedInViewController" customModule="EmbededGoogleSignIn" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4uo-ih-p6I"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mwk-fU-23n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5Tx-fS-Goe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vRC-z0-ttH">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vRC-z0-ttH" firstAttribute="leading" secondItem="5Tx-fS-Goe" secondAttribute="leading" id="ajR-gQ-eXp"/>
+                            <constraint firstItem="vRC-z0-ttH" firstAttribute="top" secondItem="5Tx-fS-Goe" secondAttribute="top" id="kkV-Km-oNd"/>
+                            <constraint firstAttribute="trailing" secondItem="vRC-z0-ttH" secondAttribute="trailing" id="p2L-I5-Ges"/>
+                            <constraint firstItem="Mwk-fU-23n" firstAttribute="top" secondItem="vRC-z0-ttH" secondAttribute="bottom" id="qeU-eu-C0m"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="vRC-z0-ttH" id="3Ae-HP-0nY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AgA-xX-w4m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="286" y="833"/>
         </scene>
     </scenes>
 </document>
